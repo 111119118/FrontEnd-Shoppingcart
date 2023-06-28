@@ -1,0 +1,114 @@
+button {
+  width: 100%;
+}
+
+.main-container {
+  position: relative;
+  
+
+  width: 100vw;
+}
+
+.card {
+  box-shadow: 0 5px 5px 5px       #8f8a8d;
+
+  /* margin-top: 15px; */
+  /* max-width: 700px; */
+
+
+  /* margin-bottom: 30px; */
+  margin: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  /* color:rgb(28, 200, 79) */
+}
+.delete{
+  display: inline-block;
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+  background-color: rgb(244, 19, 19);
+  padding: 6px 6px;
+  border: 0px solid #f0eaea;
+  border-radius: 10px;
+  width:100px;
+}
+.delete:hover {
+  animation: pulsate 1s ease-in-out;
+}
+
+
+
+
+/* ---------------------------------------------------- */
+.buttonlearn {
+  display: inline-block;
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+  background-color: rgb(244, 19, 19);
+  padding: 6px 6px;
+  border: 0px solid #ebf0ea;
+  border-radius: 10px;
+}
+.buttonlearn:hover {
+  animation: pulsate 1s ease-in-out;
+}
+@keyframes pulsate {
+  0% {
+    box-shadow: 0 0 25px #cb1e43, 0 0 50px #c20000;
+  }
+}
+/* ---------------------------------------------------------------------- */
+/* view image */
+.image{
+  height: 280px;
+}
+/* --------------------------------------------------------------- */
+/* Edit page */
+
+.edit{
+  color: rgb(240, 240, 240);
+  background-color: rgb(79, 115, 235);
+  border-radius: 10px;
+  
+}
+/* ----------------------------------------------- */
+
+/* -------------------------------------------------- */
+.icon{
+  width: 30px;
+}
+/* ---------------------------------------------------------------- */
+.home{
+  height:20px;
+  padding-top: 130px;
+  padding-left: 47px;
+  padding-right:2px
+}
+.screen{
+  width: 100px;
+  color: #000000;
+  background-color: rgb(89, 255, 0);
+  border-radius: 10px;
+  padding: 5px;
+}
+/* -------------------------------------------------------------------- */
+.save{
+  
+    
+    color: #ece7e7;
+    background-color: rgb(54, 79, 178);
+    border-radius: 20px;
+    padding: 5px;
+  
+}
+/* ----------------------------------------------------------------------- */
+/* Payment */
+
+.payment{
+  padding-top: 150px;
+  padding-left: 100px;
+  /* padding-bottom: 50px; */
+  /* color:rgb(19, 21, 20); */
+  /* background-color: yellowgreen; */
+  /* background-size: contain; */
+}
